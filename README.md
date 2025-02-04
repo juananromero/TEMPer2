@@ -7,12 +7,12 @@ With # lsusb I get:
         ...
         Bus 001 Device 011: ID 3553:a001 PCsensor TEMPer2
         ...
-This is:
+That is hexadecimal. In decimal:
 
         'vendor_id': 13651
         'product_id': 40961
 
-In hexadecimal:
+Using Python in the conversion:
 
                 >>> hex(13651)
                 '0x3553'

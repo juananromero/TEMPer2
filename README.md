@@ -1,7 +1,7 @@
 # TEMPer2
 TEMPer2 USB temperature sensor (internal + external) by pcsensor read values with Python
 
-# Linux setting
+## Linux setting
 Instaling hidapi library needed by hid python module (debian based):
 
         # sudo apt install libhidapi-hidraw0 libhidapi-libusb0
